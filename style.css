@@ -84,6 +84,10 @@ footer a {
        color: #fff;
 }
 
+footer a:hover {
+       color: #d54d29;
+}
+
 #founding,
 #team {
        background-color: #52898945;
