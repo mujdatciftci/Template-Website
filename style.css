@@ -1,0 +1,140 @@
+* {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+body {
+       overflow-x: hidden;
+}
+
+header {
+       background-color: #212529;
+       padding: 12px 0;
+}
+
+nav i {
+       font-size: 2.5rem;
+}
+
+.fa-solid {
+       color: #fff;
+       margin-right: 10px;
+}
+
+#header_main {
+       padding-top: 5rem;
+       padding-bottom: 5rem;
+}
+
+
+#header_main .btn-primary,
+#form_bottom .btn-primary,
+#main_about .btn-primary {
+       background-color: #d54d29;
+       border: 1px solid #d54d29;
+}
+#header_main .btn-primary:hover,
+#form_bottom .btn-primary:hover,
+#main_about .btn-primary:hover {
+       background-color: #fff;
+       color: #d54d29;
+       border: 1px solid #d54d29;
+}
+
+
+
+#why_us .badge {
+       background-color: #d54d29;
+}
+#services i {
+       font-size: 1.25rem;
+       color: #fff;
+       border: 1px solid #528989;
+       border-radius: 5px;
+       padding: 16px;
+       background-color: #528989;
+}
+
+#content {
+       height: 30vh;
+       background-color:#528989
+}
+#content img {
+       width: 40px;
+       height: 40px;
+       border-radius: 100%;
+}
+
+.card img {
+       aspect-ratio: 1.71;
+       object-fit: cover;
+}
+ #form_bottom .container-sm {
+       background-color: #528989;
+       color: #fff;
+       border-radius: 10px;
+ }
+
+ footer {
+       background-color: #212529;
+       color: #fff;
+ }
+footer a {
+       text-decoration: none;
+       color: #fff;
+}
+
+#founding,
+#team {
+       background-color: #52898945;
+}
+
+main {
+       margin-top: 80px;
+}
+
+#team img {
+       width: 150px;
+       height: 150px;
+       border-radius: 100%;
+}
+
+#contact_form {
+       height:90vh ;
+}
+
+#contact_form .background {
+       background-color: #d54e29d4;
+       border-radius: 10px;
+}
+
+form label {
+       color: darkgrey;
+}
+
+form .btn-outline-primary {
+       color: #fff;
+       border: 1px solid #fff;
+}
+form .btn-outline-primary:hover {
+       color: #d54d29;
+       background-color: #fff;
+       border: 1px solid #d54d29;
+}
+
+form .fa-xs {
+       font-size: 6px;
+}
+
+.form-control:focus {
+       border: 1px solid #d54d29;
+       box-shadow: none;
+}
+
+#support i {
+       font-size: 20px;
+       background-color: #528989;
+       color: #fff;
+       padding: 12px;
+       border-radius: 8px;
+}
