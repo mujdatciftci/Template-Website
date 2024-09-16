@@ -12,6 +12,12 @@ header {
        padding: 12px 0;
 }
 
+.header-wrapper {
+       background-color: #d54d29;
+       color: #fff;
+       padding: 20px 0;
+       border-radius: 10px;
+}
 nav i {
        font-size: 2.5rem;
 }
@@ -40,12 +46,27 @@ nav i {
        color: #d54d29;
        border: 1px solid #d54d29;
 }
-
-
-
-#why_us .badge {
-       background-color: #d54d29;
+.card {
+       box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.3);
 }
+.card-top {
+       height: 15rem;
+       width: 100%;
+}
+
+.card-info img {
+       height: 50px;
+       width: 50px;
+       border-radius: 100%;
+}
+
+.card
+
+
+.card-body .badge {
+       background-color: #d54d29 !important;
+}
+
 #services i {
        font-size: 1.25rem;
        color: #fff;
@@ -56,19 +77,26 @@ nav i {
 }
 
 #content {
-       height: 30vh;
-       background-color:#528989
+       background-color:#528989;
 }
 #content img {
-       width: 40px;
-       height: 40px;
+       width: 50px;
+       height: 50px;
        border-radius: 100%;
 }
 
 .card img {
        aspect-ratio: 1.71;
        object-fit: cover;
+       transition: all .4s ease;
 }
+
+.card-top:hover {
+       transform: scale(0.97);
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+}
+
  #form_bottom .container-sm {
        background-color: #528989;
        color: #fff;
@@ -77,22 +105,27 @@ nav i {
 
  footer {
        background-color: #212529;
-       color: #fff;
+       color: #fff !important;
  }
 footer a {
        text-decoration: none;
-       color: #fff;
+       color: #fff !important;
+       transition: all .2s ease;
 }
 
 footer a:hover {
-       color: #d54d29;
+       color: #d54d29 !important;
 }
 
-#founding,
-#team {
+#founding
+        {
        background-color: #52898945;
 }
 
+#team {
+       background-color: #212529;
+       color: #fff;
+}
 main {
        margin-top: 80px;
 }
@@ -141,4 +174,8 @@ form .fa-xs {
        color: #fff;
        padding: 12px;
        border-radius: 8px;
+}
+
+footer a {
+       color: #212529;
 }

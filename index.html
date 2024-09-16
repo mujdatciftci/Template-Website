@@ -17,81 +17,88 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <header>
       <div class="container-sm">
-        <nav class="navbar navbar-expand-md navbar-dark">
-          <div class="container-fluid">
-            <i class="fa-solid fa-hammer"></i>
-            <a class="navbar-brand" href="index.html">Hırdavat Construction</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html" >About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">FAQ</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Blog
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Blog Home</a></li>
-                    <li><a class="dropdown-item" href="#">Blog Post</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Portfolio
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Portfolio Overview</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Portfolio Item</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+        <div class="header-wrapper">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <i class="fa-solid fa-hammer"></i>
+              <a class="navbar-brand" href="index.html"
+                >Hırdavat Construction</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mt-4 my-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Blog Home</a></li>
+                      <li><a class="dropdown-item" href="#">Blog Post</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Portfolio
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Portfolio Overview</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Portfolio Item</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
+
         <div id="header_main" class="row justify-content-center text-white">
           <div class="col-lg-10 col-xl-5">
             <h1>Do you need a new home built? Call us today.</h1>
@@ -112,7 +119,7 @@
           <div class="d-none d-xl-block col-xl-7 text-end">
             <img
               class="rounded"
-              src="/assets/main.png"
+              src="img/main.png"
               alt="main"
               style="width: 600px; height: 400px"
             />
@@ -128,126 +135,188 @@
           </div>
           <div class="col-md-12 col-xl-8">
             <div class="row">
-              <div class="col-12 col-md-6 text-center text-md-start mb-5 mb-md-0">
+              <div
+                class="col-12 col-md-6 text-center text-md-start mb-5 mb-md-0"
+              >
                 <span><i class="fa-solid fa-truck-pickup"></i></span>
                 <h3 class="fs-5 mt-4">Building Construction</h3>
-                <p>We collaborate with our expert team to construct modern, secure, and aesthetically pleasing buildings. Whether residential, commercial, or industrial, we are here to bring your projects to life.</p>
+                <p>
+                  We collaborate with our expert team to construct modern,
+                  secure, and aesthetically pleasing buildings. Whether
+                  residential, commercial, or industrial, we are here to bring
+                  your projects to life.
+                </p>
               </div>
-              <div class="col-12 col-md-6 text-center text-md-start mb-5 mb-md-0">
+              <div
+                class="col-12 col-md-6 text-center text-md-start mb-5 mb-md-0"
+              >
                 <span><i class="fa-solid fa-bars-progress"></i></span>
                 <h3 class="fs-5 mt-4">Project Management</h3>
-                <p>We support you through every stage of your project, from inception to completion. Offering professional management services in planning, design, permitting, construction, and delivery processes.</p>
+                <p>
+                  We support you through every stage of your project, from
+                  inception to completion. Offering professional management
+                  services in planning, design, permitting, construction, and
+                  delivery processes.
+                </p>
               </div>
             </div>
             <div class="row mt-3">
-              <div class="col-12 col-md-6 text-center text-md-start mb-5 mb-md-0">
+              <div
+                class="col-12 col-md-6 text-center text-md-start mb-5 mb-md-0"
+              >
                 <span><i class="fa-solid fa-pen-clip"></i></span>
                 <h3 class="fs-5 mt-4">Design and Architecture</h3>
-                <p>We provide creative design and architectural services that strike a perfect balance between aesthetics and functionality. Tailoring unique solutions for each project, aiming to exceed our clients' expectations.</p>
+                <p>
+                  We provide creative design and architectural services that
+                  strike a perfect balance between aesthetics and functionality.
+                  Tailoring unique solutions for each project, aiming to exceed
+                  our clients' expectations.
+                </p>
               </div>
-              <div class="col-12 col-md-6 text-center text-md-start mb-5 mb-md-0">
+              <div
+                class="col-12 col-md-6 text-center text-md-start mb-5 mb-md-0"
+              >
                 <span><i class="fa-solid fa-timeline"></i></span>
                 <h3 class="fs-5 mt-4">Restoration and Renovation</h3>
-                <p>Specializing in the restoration of historic buildings and the renovation of existing structures. We offer solutions that preserve the value of the past while meeting modern needs.</p>
+                <p>
+                  Specializing in the restoration of historic buildings and the
+                  renovation of existing structures. We offer solutions that
+                  preserve the value of the past while meeting modern needs.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="content" class="row text-center" >
-      <div class="container-sm">
+    <!--! Content -->
+    <section id="content" class="row text-center pt-5">
+      <div class="container">
         <div class="pt-5">
-          <p class="fs-4 text-white fw-light"><i> "If you're seeking a reliable partner for your construction projects, Hırdavat Construction is the right choice! <br>Don't hesitate to reach out to us and learn how we can assist you"</i></p>
+          <p class="fs-4 text-white fw-light">
+            <i>
+              "If you're seeking a reliable partner for your construction
+              projects, Hırdavat Construction is the right choice! <br />Don't
+              hesitate to reach out to us and learn how we can assist you"</i
+            >
+          </p>
         </div>
         <div class="col pb-5">
-          <img src="/assets/ceo.jpeg" alt="ceo">
-          <p class="d-inline-block ms-2 py-1 text-white"><b>Müjdat Çiftçi / CEO</b></p>
+          <img src="img/pp2.jpg" alt="ceo" />
+          <p class="d-inline-block ms-2 py-1 text-white">
+            <b>Müjdat Çiftçi / CEO</b>
+          </p>
         </div>
       </div>
     </section>
-    <section id="why_us">
-      <div class="container-sm">
-        <h2 class="text-center my-5 text-uppercase fw-bold">Wyh Us</h2>
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-6 col-lg-4 p-4 p-md-2">
-            <div class="card h-100">
-              <img src="/assets/Quality Guarantee.jpg" class="card-img-top" alt="quality_guarantee">
+
+    <!--! Card -->
+    <section id="card" class="mt-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Why Us</h2>
+        <div class="row justify-content-center gy-5">
+          <div class="col-10 col-lg-4">
+            <div class="card mb-3 mb-md-0">
+              <img
+                class="card-top rounded-top"
+                src="img/Quality Guarantee.jpg"
+                alt=""
+              />
               <div class="card-body">
                 <span class="badge my-1">Primary</span>
-                <h5 class="card-title">Qualitiy Guarantee</h5>
-                <p class="card-text">We uphold our quality standards at every stage, prioritizing customer satisfaction.</p>
-                
+                <h5 class="card-title mt-2">Qualitiy Guarantee</h5>
+                <p class="card-text">
+                  We uphold our quality standards at every stage, prioritizing
+                  customer satisfaction.
+                </p>
               </div>
-              <div class="row justify-content-center align-items-center mt-4 p-3">
-                <div class="col-2">
-                  <img src="/assets/pp2 (1).jpg" class="rounded-circle" alt="messi">
+              <div class="card-info d-flex mt-3 ms-3 mb-3">
+                <img src="img/pp1.jpg" alt="" />
+                <div class="card-info-name ms-3">
+                  <div class="fw-bold">Sally Andrew</div>
+                  <span class="text-muted">March 12, 2023 · 6 min read</span>
                 </div>
-                <div class="col-10">
-                  <h5 class="fs-6 m-0 fw-bold">Lionel Messi</h5>
-                  <p class="m-0 text-muted">March 12, 2023 · 6 min read</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="card mb-3 mb-md-0">
+              <img
+                class="card-top rounded-top"
+                src="img/Customer-Centric Approach.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <span class="badge my-1">Primary</span>
+                <h5 class="card-title mt-2">Qualitiy Guarantee</h5>
+                <p class="card-text">
+                  We uphold our quality standards at every stage, prioritizing
+                  customer satisfaction.
+                </p>
+              </div>
+              <div class="card-info d-flex mt-3 ms-3 mb-3">
+                <img src="img/pp2.jpg" alt="" />
+                <div class="card-info-name ms-3">
+                  <div class="fw-bold">Josh Green</div>
+                  <span class="text-muted">October 8, 2023 · 7 min read</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 p-4 p-md-2">
-            <div class="card h-100">
-            <img src="/assets/construction worker.jpg" class="card-img-top" alt="quality_guarantee">
-            <div class="card-body">
-              <span class="badge my-1">Primary</span>
-              <h5 class="card-title">Expert Team</h5>
-              <p class="card-text">We manage your projects with an experienced and skilled team.</p>
-            </div>
-            <div class="row justify-content-center align-items-center mt-4 p-3">
-              <div class="col-2">
-                <img src="/assets/pp1 (1).jpg" class="rounded-circle" alt="Morgan">
+          <div class="col-10 col-lg-4">
+            <div class="card mb-3 mb-md-0">
+              <img
+                class="card-top rounded-top"
+                src="img/construction worker.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <span class="badge my-1">Primary</span>
+                <h5 class="card-title mt-2">Qualitiy Guarantee</h5>
+                <p class="card-text">
+                  We uphold our quality standards at every stage, prioritizing
+                  customer satisfaction.
+                </p>
               </div>
-              <div class="col-10">
-                <h5 class="fs-6 m-0 fw-bold">Alex Morgan</h5>
-                <p class="m-0 text-muted">March 12, 2023 · 6 min read</p>
+              <div class="card-info d-flex mt-3 ms-3 mb-3">
+                <img src="img/pp3.jpg" alt="" />
+                <div class="card-info-name ms-3">
+                  <div class="fw-bold">Martin Fuly</div>
+                  <span class="text-muted">Jun 13, 2024 · 4 min read</span>
+                </div>
               </div>
-            </div>
-          </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 p-4 p-md-2">
-            <div class="card h-100">
-            <img src="/assets/Customer-Centric Approach.jpg" class="card-img-top" alt="quality_guarantee">
-            <div class="card-body">
-              <span class="badge my-1">Primary</span>
-              <h5 class="card-title">Customer-Centric Approach</h5>
-              <p class="card-text">We strive to understand our customers' needs and meet their expectations.</p>
-            </div>
-            <div class="row justify-content-center align-items-center mt-4 p-3">
-              <div class="col-2">
-                <img src="/assets/pp3 (1).jpg" class="rounded-circle" alt="ronaldo">
-              </div>
-              <div class="col-10">
-                <h5 class="fs-6 m-0 fw-bold">C.Ronaldo</h5>
-                <p class="m-0 text-muted">March 12, 2023 · 6 min read</p>
-              </div>
-            </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section id="form_bottom">
       <div class="container-sm">
-        <div class="row justify-content-between align-items-center mt-5 ">
+        <div class="row justify-content-between align-items-center mt-5">
           <div class="col-12 col-lg-6 pt-5 px-5 pt-lg-0">
             <div class="fs-3 fw-bold">
               New products, delivered to you.
-              <p class="m-0 fs-6 fw-normal">Sign up for our newsletter for the latest updates.</p>
+              <p class="m-0 fs-6 fw-normal">
+                Sign up for our newsletter for the latest updates.
+              </p>
             </div>
           </div>
           <div class="col-12 col-lg-5 p-5 m-0">
             <form>
               <div class="input-group">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
                 <button type="submit" class="btn btn-primary">Sign Up</button>
               </div>
             </form>
-            <p class="m-0 pt-1 text-white-50">We care about privacy, and will never share your data.</p>
+            <p class="m-0 pt-1 text-white-50">
+              We care about privacy, and will never share your data.
+            </p>
           </div>
         </div>
       </div>
@@ -256,14 +325,16 @@
       <div class="container-sm">
         <div class="row justify-content-between align-items-center py-3 mt-5">
           <p class="col-12 col-md-4 text-md-start text-center m-0">
-            Copyright © Müjdat Çiftçi 
+            Copyright © Müjdat Çiftçi
             <span>
-              &copy;<script>document.write(new Date().getFullYear());</script>
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
             </span>
           </p>
           <div class="col-12 col-md-4 text-center text-md-end">
-            <a href="#">Privacy</a> ·
-            <a href="#">Terms</a> ·
+            <a href="#">Privacy</a> · <a href="#">Terms</a> ·
             <a href="#">Contact</a>
           </div>
         </div>
@@ -280,3 +351,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
+</html>
